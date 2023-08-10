@@ -1,0 +1,62 @@
+.footer-center.contact-right,
+.contact-left {
+  margin-left: 100px;
+}
+.footer-center.contact-right {
+  font-family: "Lora", serif;
+}
+.footer-center div {
+  color: #3f3e3e;
+  font-size: 1.4rem;
+}
+.underline,
+.nounderline {
+  border: 1px solid transparent;
+  //   background-color: #d1e2e9;
+  color: #716f6f;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  padding: 20px;
+  padding-left: 0px;
+  width: 405px;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+.nounderline {
+  background-color: transparent;
+  border-bottom: 0px;
+}
+.message {
+  width: 505px;
+}
+.submit {
+  padding-left: 200px;
+  font-family: "Courgette", cursive;
+  font-size: 25px;
+  color: #243a6f;
+  cursor: pointer;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: var(--white);
+  font-family: "Lora", serif;
+}
+@media only screen and (max-width: 998px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+i .bx .bxl-facebook:hover{
+    //color: rgb(35,116,116);
+    color: red;
+
+}

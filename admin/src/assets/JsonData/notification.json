@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Warning (chưa biết viết gì)"
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "Parcel (chưa biết viết gì)"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Cart (chưa biết viết gì)"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Warning (chưa biết viết gì)"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "Cart (chưa biết viết gì).... còn tiếp, đổ vào sau"
+    }
+]
